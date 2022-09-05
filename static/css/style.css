@@ -2,7 +2,7 @@ body {
     background-color: #F9FAFC;
 }
 
-#navbar {
+/* #navbar {
     position: absolute;
     top: 0;
     right: 0;
@@ -10,9 +10,9 @@ body {
     color: white;
     font-size: 17px;
     font-weight: 500;
-}
+} */
 
-.topnav {
+/* .topnav {
     overflow: hidden;
     top: 0;
     right: 0;
@@ -20,7 +20,7 @@ body {
 .topnav li{
     display: inline;
     padding: 10px 13px;
-}
+} */
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;

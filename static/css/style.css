@@ -2,25 +2,6 @@ body {
     background-color: #F9FAFC;
 }
 
-/* #navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: transparent;
-    color: white;
-    font-size: 17px;
-    font-weight: 500;
-} */
-
-/* .topnav {
-    overflow: hidden;
-    top: 0;
-    right: 0;
-}
-.topnav li{
-    display: inline;
-    padding: 10px 13px;
-} */
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
@@ -79,4 +60,13 @@ body {
     padding: 5%;
     color: black;
   
+}
+hr {
+    border: 0;
+    width: 96%;               
+    height: 1px;
+  }
+
+.navlogout {
+    text-align: center;
 }

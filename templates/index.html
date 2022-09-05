@@ -21,14 +21,14 @@
 
         <!-- Blog Entries Column -->
         <div>
-            <div class="row">
+            <div class="row ml-3">
                 {% for post in post_list %}
                             <a href="{% url 'post_detail' post.slug  %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
-                            <hr />
-                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
+                            <hr/>
+                            <p class="card-text text-muted h6 ">{{ post.created_on}} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
                         </div>
                     </div>
